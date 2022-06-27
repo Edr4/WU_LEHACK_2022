@@ -16,6 +16,7 @@ Miaou Gallery est un site web qui permet d'upload des images jpg uniquement
 ![](https://i.imgur.com/veO1AH0.png)
 
 J'essaye d'upload des fichiers php, null bytes, doubles extensions... mais ça ne fonctionne pas
+
 Après des cherches dans les conditions de sécurité du site web on a les infos de base de données, c'est très certainement une SQLI
 
 ![](https://i.imgur.com/LvGFnUS.png)
@@ -25,6 +26,7 @@ Dans les EXIFS !
 
 
 Site qui liste tous les Exifs : https://exiv2.org/tags.html
+
 Je tente d'upload plusieurs images avec des EXIFS contenant des guimmets mais ça ne marche pas.
 
 Alors je découvre qu'imageUniqueID, Filename et Copyright sont des exifs 
@@ -60,6 +62,7 @@ Et je récupère bien la version de mysql
 ![](https://i.imgur.com/H7rlQY6.png)
 
 Maintenant j'ai juste à récupérer le contenu de la table VerySecretThing
+
 J'ajoute un limit à la fin pour éviter de récupérer plusieurs lignes
 
 ![](https://i.imgur.com/FEiBd11.png)
