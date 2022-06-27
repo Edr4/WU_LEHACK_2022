@@ -32,6 +32,7 @@ Je tente d'upload plusieurs images avec des EXIFS contenant des guimmets mais ç
 Alors je découvre qu'imageUniqueID, Filename et Copyright sont des exifs 
 
 Ajout des exifs sur l'image
+
 ![](https://i.imgur.com/zubFXLZ.png)
 
 ils sont affichés sur l'image
