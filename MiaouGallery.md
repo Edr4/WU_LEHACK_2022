@@ -70,6 +70,7 @@ J'ajoute un limit à la fin pour éviter de récupérer plusieurs lignes
 J'ai bien le début du flag (:
 
 ![](https://i.imgur.com/ZxPeM4T.png)
+
 Je rajoute un substr() pour avoir la fin du flag
 
 ![](https://i.imgur.com/p4vYYxm.png)
