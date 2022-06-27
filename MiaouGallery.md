@@ -19,6 +19,7 @@ J'essaye d'upload des fichiers php, null bytes, doubles extensions... mais ça n
 Après des cherches dans les conditions de sécurité du site web on a les infos de base de données, c'est très certainement une SQLI
 
 ![](https://i.imgur.com/LvGFnUS.png)
+
 Mais comment faire une sql injection dans un fichier JPG ?
 Dans les EXIFS ! 
 
