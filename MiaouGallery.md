@@ -12,7 +12,7 @@ AAAAAAAAAAAA
 
 ## Exploitation 
 
-Miaou Gallery est un site web qui permet d'upload des images
+Miaou Gallery est un site web qui permet d'upload des images jpg uniquement
 ![](https://i.imgur.com/veO1AH0.png)
 
 J'essaye d'upload des fichiers php, null bytes, doubles extensions... mais ça ne fonctionne pas
