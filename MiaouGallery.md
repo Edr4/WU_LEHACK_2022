@@ -1,10 +1,5 @@
 ## Writeup 🚩 MiaouGallery - LEHACK 2022
 
-## Description
-
-AAAAAAAAAAAA
-
-
 ## Flag
 
 ```lh2022_{MyC41Is5OcuT3d0n'1UThINk?}```
